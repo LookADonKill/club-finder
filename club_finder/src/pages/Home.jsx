@@ -11,7 +11,7 @@ function Home() {
                 Discover communities based on your interest.
             </p>
 
-            <Link to="/clubs" className="bg-blue-500 text-shadow-black p-4 flex gap-6">
+            <Link to="/clubs" className="bg-blue-500 text-shadow-black p-4 flex gap-6 cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl rounded-3xl w-50 justify-center">
                 All Clubs
             </Link>
         </div>

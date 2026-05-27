@@ -1,7 +1,9 @@
+import images from './images';
+
 export const clubs = [{
     id: 'basketball',
     name: 'Basketball Club',
-    image: 'https://unsplash.com/photos/people-inside-a-basketball-gym-J_tbkGWxCH0', // Basketball image from unsplash
+    image: images.basketball,
     subtitle: 'Learn basketball and play to your hearts out!',
     description: 'Basketball club is a place where you can learn basketball. Here, you will learn dribbling, rebounding, shooting, passing, defending, footworks, and advanced tricks. For those who already have experiences, you can immediately partake in our 3v3 or 5v5 games.',
     events: [
@@ -13,7 +15,7 @@ export const clubs = [{
     {
     id: 'science',
     name: 'Science Club',
-    image: 'https://unsplash.com/photos/black-and-silver-coffee-maker-on-white-wooden-table-_9xRHrMOjeg', // Science Lab image from unsplash
+    image: images.science, // Science Lab image from unsplash
     subtitle: 'Find more about what cannot be seen with your naked eyes.',
     description: 'Science club is a place where your curiosity will be answered. Do your research on that organism, mix chemicals to craft potions, or find out what makes you, you. Here, your ideas are welcomed.',
     events: [
@@ -25,7 +27,7 @@ export const clubs = [{
     {
     id: 'trafie',
     name: 'Track and Field Club',
-    image: 'https://unsplash.com/photos/white-and-blue-stadium-under-blue-sky-during-daytime-XP2goMOgHX8', // Running Track image from unsplash
+    image: images.trackfield, // Running Track image from unsplash
     subtitle: 'Learn to push your very legs and lungs to the limit!',
     description: 'Track and Field club is a place where you can run to your hearts out. Learn to do 100, 200, or even 400. We also have long jump, high jump, and polve vault. Oh, not to forget there are shot put and disc throw. So yeah, come apply.',
     events: [
@@ -37,7 +39,7 @@ export const clubs = [{
     {
     id: 'gamedev',
     name: 'Game Development Club',
-    image: 'https://unsplash.com/photos/a-person-is-looking-at-a-computer-screen-966_0A195uE', // Game Developer image from unsplash
+    image: images.gamedev, // Game Developer image from unsplash
     subtitle: 'Learn game development and create your dream game.',
     description: 'Game development club is a place where you will be taught how to create games from the very essence. There are five different courses, which consists of Programmer, Artist, Designer, Composer, and Manager. All of the courses have their own teacher who are experienced game developers, capable of contributing greatly to their teams. So, what are you waiting for? Join us and create your dream project.',
     events: [
@@ -48,7 +50,7 @@ export const clubs = [{
     {
     id: 'programming',
     name: 'Programmer Club',
-    image: 'https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI', // Programmer image from unsplash
+    image: images.program, // Programmer image from unsplash
     subtitle: 'If you like to develop websites or mobile apps, come join.',
     description: 'Programmer club is a place where you learn to be a programmer. We cover programming languages such as C, C++, C#, HTML, CSS, JavaScript, MySQL, and a few others. If those languages piqued your interest, you can apply.',
     events: [
@@ -59,7 +61,7 @@ export const clubs = [{
     {
     id: 'football',
     name: 'Football Club',
-    image: 'https://unsplash.com/photos/group-of-people-playing-soccer-on-soccer-field-8-s5QuUBtyM', // Football image from unsplash
+    image: images.football, // Football image from unsplash
     subtitle: 'Join us and became a striker you always wanted to be!',
     description: 'Let us disclaimer that we mentioned striker because it is catchy. We are Football club, a place where you can play 11v11 football. Unlike the title said, we actually taught the fundamentals of football, from dribbling, tackling, and shooting. So, come on in. We will be waiting you all at the soccer field.',
     events: [

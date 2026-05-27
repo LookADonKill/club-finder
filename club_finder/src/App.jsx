@@ -17,7 +17,7 @@ function App() {
       <Route path="/clubs" element={<ClubList />} />
       <Route path="/clubs/:clubID" element={<ClubDetail />} />
       <Route path="/about" element={<About />} />
-      <Route path="/*" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </div>
   );
